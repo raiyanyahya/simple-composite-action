@@ -1,0 +1,8 @@
+name: "pyaction"
+description: "a very simple hello world python githib action"
+
+runs:
+    using: composite
+    steps:
+    - run: python3 Action.py
+      shell: bash
